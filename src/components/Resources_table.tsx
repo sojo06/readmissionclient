@@ -71,7 +71,7 @@ export function Resources_table() {
 		async function getData() {
 			try {
 				const response = await axios.get(
-					${origin_api}/api/inventory/get-all-readmisson
+					`${origin_api}/api/inventory/get-all-readmisson`
 				);
 
 				// Ensure we extract data correctly from the response
